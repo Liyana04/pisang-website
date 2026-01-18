@@ -22,24 +22,34 @@
   </header>
 
   <main class="container mx-auto px-4 md:px-12">
-    <section id="hero">
-      <h1>Welcome to Pisang Goreng Cik Yah</h1>
-      <p>
-        Enjoy the best fried bananas in town! 
-        Crispy on the outside, 
-        soft on the inside. Get your Pisang Goreng today!
-      </p>
+    <section id="hero" class="flex flex-col md:flex-row items-center justify-between py-10 md:py-20 gap-10">
+      
+      <div class="w-full md:w-1/2 flex justify-center md:order-2">
+        <img src="./image/pisangs.png" alt="Fried Banana Illustration" class="w-full max-w-md h-auto object-contain">
+      </div>
+
+      <div class="w-full md:w-1/2 space-y-6 md:order-1">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">Welcome to <br><span>Pisang Goreng <br>Cik Yah</span></h1>
+        <p class="text-lg text-gray-600">
+          Enjoy the best fried bananas in town! 
+          Crispy on the outside, 
+          soft on the inside. <br class="hidden md:block"> Get your Pisang Goreng today!
+        </p>
+        <button class="bg-yellow-300 text-black font-bold py-4 px-8 rounded-2xl hover:bg-yellow-400 hover:cursor-pointer
+        transition-all shadow-lg">
+          Nak Pisang Goreng!
+        </button>
+      </div>
+      
     </section>
     <section id="about">
-      <div class="flex flex-row justify-center items-center p-4 m-4">
+      <div class="flex flex-row justify-center items-center py-4 my-4">
       <div>
         <h2 class="py-4">Why Pisang Goreng Cik Yah?</h2>
         <p class="py-4">
           Pisang Goreng Cik Yah has been serving delicious fried bananas <b><i>since 1990</i></b>.
           Our secret recipe and fresh ingredients make us the favorite spot for Pisang Goreng lovers.
         </p>
-          <button class="cursor-pointer bg-amber-500
-           hover:text-white hover:bg-amber-600 p-4 rounded-xl">Nak Pisang Goreng!</button>
       </div>
       <div class="p-4 m-4">
         <img class="w-1/2 md:w-1/4 mx-auto border rounded-xl border-amber-400" src="./image/pisang1" alt="Pisang Goreng">
