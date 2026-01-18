@@ -6,10 +6,13 @@
     --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-amber-300: oklch(87.9% 0.169 91.605);
     --color-amber-400: oklch(82.8% 0.189 84.429);
     --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-amber-600: oklch(66.6% 0.179 58.318);
+    --color-yellow-50: oklch(98.7% 0.026 102.212);
+    --color-yellow-100: oklch(97.3% 0.071 103.193);
     --color-yellow-300: oklch(90.5% 0.182 98.111);
     --color-yellow-400: oklch(85.2% 0.199 91.936);
     --color-yellow-500: oklch(79.5% 0.184 86.047);
@@ -312,6 +315,9 @@
   .h-96 {
     height: calc(var(--spacing) * 96);
   }
+  .h-auto {
+    height: auto;
+  }
   .min-h-\[80vh\] {
     min-height: 80vh;
   }
@@ -323,6 +329,9 @@
   }
   .w-16 {
     width: calc(var(--spacing) * 16);
+  }
+  .w-32 {
+    width: calc(var(--spacing) * 32);
   }
   .w-64 {
     width: calc(var(--spacing) * 64);
@@ -373,6 +382,9 @@
   .items-center {
     align-items: center;
   }
+  .justify-around {
+    justify-content: space-around;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -408,6 +420,9 @@
   .gap-x-6 {
     column-gap: calc(var(--spacing) * 6);
   }
+  .self-center {
+    align-self: center;
+  }
   .overflow-hidden {
     overflow: hidden;
   }
@@ -436,6 +451,9 @@
   .border-gray-300 {
     border-color: var(--color-gray-300);
   }
+  .bg-amber-50 {
+    background-color: var(--color-amber-50);
+  }
   .bg-amber-300 {
     background-color: var(--color-amber-300);
   }
@@ -451,8 +469,17 @@
   .bg-green-700 {
     background-color: var(--color-green-700);
   }
+  .bg-yellow-50 {
+    background-color: var(--color-yellow-50);
+  }
+  .bg-yellow-100 {
+    background-color: var(--color-yellow-100);
+  }
   .bg-yellow-300 {
     background-color: var(--color-yellow-300);
+  }
+  .bg-yellow-400 {
+    background-color: var(--color-yellow-400);
   }
   .bg-yellow-500 {
     background-color: var(--color-yellow-500);
