@@ -8,8 +8,8 @@
   <title>Pisang Goreng Cik Yah</title>
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <header id="navbar" class="mx-auto px-4 md:px-12 flex justify-between items-center bg-yellow-100">
+<body class="">
+  <header id="navbar" class="w-full px-4 md:px-12 flex justify-between items-center bg-yellow-100">
     <div>
       <img src="./image/nav-logo.png" class="w-24 h-24 overflow-hidden" alt="Pisang Goreng Cik Yah Logo">
     </div>
@@ -29,33 +29,41 @@
       </div>
 
       <div class="w-full md:w-1/2 space-y-6 md:order-1">
-        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">Welcome to <br><span>Pisang Goreng <br>Cik Yah</span></h1>
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-800 leading-tight">Welcome to <br><span>Pisang Goreng <br>Cik Yah</span></h1>
         <p class="text-lg text-gray-600">
           Enjoy the best fried bananas in town! 
           Crispy on the outside, 
           soft on the inside. <br class="hidden md:block"> Get your Pisang Goreng today!
         </p>
-        <button class="bg-yellow-300 text-black font-bold py-4 px-8 rounded-2xl hover:bg-yellow-400 hover:cursor-pointer
-        transition-all shadow-lg">
+        <button class="bg-yellow-300 text-black font-bold py-4 px-8 rounded-2xl hover:bg-yellow-400 hover:cursor-pointer">
           Nak Pisang Goreng!
         </button>
       </div>
       
     </section>
-    <section id="about">
-      <div class="flex flex-row justify-center items-center py-4 my-4">
-      <div>
-        <h2 class="py-4">Why Pisang Goreng Cik Yah?</h2>
-        <p class="py-4">
+    <section id="about" class="flex flex-col md:flex-row items-center justify-between py-10 md:py-20 gap-10">
+
+      <div class="w-full md:w-1/2">
+        <img class="w-full max-w-md h-auto object-contain" src="./image/pisangs2.svg" alt="Pisang Goreng">
+      </div>  
+      <div class="w-full md:w-1/2 space-y-6">
+        <h2 class="text-4xl md:text-6xl font-bold text-gray-800 leading-tight">Why Pisang Goreng Cik Yah?</h2>
+        <p class="text-lg text-gray-600">
           Pisang Goreng Cik Yah has been serving delicious fried bananas <b><i>since 1990</i></b>.
           Our secret recipe and fresh ingredients make us the favorite spot for Pisang Goreng lovers.
         </p>
+        <div class="flex flex-row gap-4">
+            <button class="bg-yellow-300 text-black font-bold py-4 px-8 rounded-2xl hover:bg-yellow-400 hover:cursor-pointer">
+              Nak Pisang Goreng!
+            </button>
+            <button class="border border-yellow-300 text-black font-semibold py-4 px-8 rounded-2xl hover:bg-yellow-50-400 hover:cursor-pointer">
+                Learn More
+            </button>
+        </div>
       </div>
-      <div class="p-4 m-4">
-        <img class="w-1/2 md:w-1/4 mx-auto border rounded-xl border-amber-400" src="./image/pisang1" alt="Pisang Goreng">
-      </div>
-      </div>
+
     </section>
+
     <section id="feedback" class="max-w-7xl mx-auto">
       <div class="flex flex-col m-4 gap-4">
         <h1 class="font-semibold text-amber-700 text-2xl">Feedback</h1>
