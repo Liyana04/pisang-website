@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +9,21 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 <body class="">
-  <header id="navbar" class="w-full px-4 md:px-12 flex justify-between items-center bg-yellow-100">
+  <header id="navbar" class="w-full px-4 md:px-12 flex justify-between 
+  items-center bg-yellow-100 backdrop-blur-md sticky top-0 z-50 shadow-sm">
     <div>
       <img src="./image/nav-logo.png" class="w-24 h-24 overflow-hidden" alt="Pisang Goreng Cik Yah Logo">
     </div>
     <nav class="p-4">
       <ul class="flex gap-4">
-        <li><a href="#home" class="transition-colors duration-300 hover:text-yellow-500">Home</a></li>
-        <li><a href="#about" class="transition-colorsduration-300 hover:text-yellow-500">About Us</a></li>
+        <li><a href="#hero" class="transition-colors duration-300 hover:text-yellow-500">Home</a></li>
+        <li><a href="#about" class="transition-colors duration-300 hover:text-yellow-500">About Us</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container mx-auto px-4 md:px-12">
-    <section id="hero" class="flex flex-col md:flex-row items-center justify-between py-10 md:py-20 gap-10">
+    <section id="hero" class="scroll-mt-24 flex flex-col md:flex-row items-center justify-between py-10 md:py-20 gap-10">
       
       <div class="w-full md:w-1/2 flex justify-center md:order-2">
         <img src="./image/pisangs.png" alt="Fried Banana Illustration" class="w-full max-w-md h-auto object-contain">
@@ -42,7 +43,7 @@
       </div>
       
     </section>
-    <section id="about" class="flex flex-col md:flex-row items-center justify-between py-10 md:py-20 gap-10">
+    <section id="about" class="scroll-mt-24 flex flex-col md:flex-row items-center justify-between py-10 md:py-20 gap-10">
 
       <div class="w-full md:w-1/2">
         <img class="w-full max-w-md h-auto object-contain" src="./image/pisangs2.svg" alt="Pisang Goreng">
@@ -60,7 +61,7 @@
           </button>
           <button class="border border-yellow-300 text-black font-medium py-4 px-8 rounded-2xl hover:bg-yellow-400 
           hover:cursor-pointer transition-transform duration-300 hover:scale-110 active:scale-95 shadow-md ">
-            Nak Pisang Goreng!
+            Learn More
           </button>
         </div>
       </div>
